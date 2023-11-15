@@ -18,7 +18,7 @@ This web app, developed using HTML, CSS, and JavaScript, provides users with the
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/your-repo.git`
+1. Clone the repository: `(https://github.com/Mulaudzi-F/Banklist-App.git)`
 2. Open the project folder: `cd your-repo`
 3. Open `index.html` in your preferred web browser.
 

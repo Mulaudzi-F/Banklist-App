@@ -38,7 +38,9 @@ body {
   padding: 15rem 3rem;
   border-top: 1px solid #ddd;
 
-  transition: transform 1s, opacity 1s;
+  transition:
+    transform 1s,
+    opacity 1s;
 }
 
 .section--hidden {
@@ -458,7 +460,7 @@ h4 {
 }
 
 .dots__dot--active {
-  background-color: #fff; 
+  background-color: #fff;
   /*background-color: #888;*/
   opacity: 1;
 }
@@ -671,4 +673,182 @@ h4 {
   color: #bbb;
   font-size: 1.5rem;
   font-weight: 400;
+}
+@media (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
+  .section {
+    padding: 10rem 2rem;
+  }
+
+  .section__title {
+    max-width: 100%;
+    margin: 0 auto 5rem auto;
+  }
+
+  .section__description {
+    font-size: 1.6rem;
+  }
+
+  .section__header {
+    font-size: 3rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem 3.5rem;
+  }
+
+  .nav {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 3rem;
+  }
+
+  .nav__item {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .header__title {
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 0 2rem;
+  }
+
+  .operations__content {
+    padding: 2rem 3rem;
+  }
+
+  .slider {
+    height: 30rem;
+  }
+
+  .slide {
+    height: 30rem;
+  }
+
+  .testimonial {
+    width: 90%;
+  }
+
+  .section--sign-up {
+    padding: 5rem 2rem;
+  }
+
+  .footer {
+    padding: 5rem 2rem;
+  }
+
+  .modal {
+    max-width: 90%;
+    padding: 3rem 4rem;
+  }
+
+  .modal__form {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .cookie-message {
+    flex-direction: column;
+    font-size: 1.2rem;
+  }
+}
+
+/* Tablet Styles */
+@media (min-width: 601px) and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+
+  .section {
+    padding: 12rem 2.5rem;
+  }
+
+  .section__title {
+    max-width: 90%;
+    margin: 0 auto 6rem auto;
+  }
+
+  .section__description {
+    font-size: 1.7rem;
+  }
+
+  .section__header {
+    font-size: 3.5rem;
+  }
+
+  .btn {
+    font-size: 1.5rem;
+    padding: 1.1rem 4rem;
+  }
+
+  .nav {
+    padding: 1rem 4rem;
+  }
+
+  .header__title {
+    grid-template-columns: 2fr 1fr;
+    row-gap: 2.5rem;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin: 0 5rem;
+  }
+
+  .operations__content {
+    padding: 2rem 5rem;
+  }
+
+  .slider {
+    height: 40rem;
+  }
+
+  .slide {
+    height: 40rem;
+  }
+
+  .testimonial {
+    width: 80%;
+  }
+
+  .section--sign-up {
+    padding: 8rem 2.5rem;
+  }
+
+  .footer {
+    padding: 8rem 2.5rem;
+  }
+
+  .modal {
+    max-width: 80%;
+    padding: 4rem 5rem;
+  }
+
+  .modal__form {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 2rem;
+  }
+
+  .cookie-message {
+    font-size: 1.3rem;
+  }
 }
